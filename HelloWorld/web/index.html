@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Log-in</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form method="POST" action="greeting">
+            <div class="name">
+                <label>Name: </label><input type="text" name="name"/>
+            </div>
+            <div class="course">
+                <label>Course: </label><input type="text" name="course"/>
+            </div>
+            <div class="prog_lang"> 
+                <label>Programming Languages:</label>
+                <div class="prog_lang_list">
+                    <input name="pl" type="checkbox" value="JAVA Desktop Application(J2SE)"/>JAVA Desktop Application(J2SE)
+                    <input name="pl" type="checkbox" value="JAVA Web Application (J2EE)"/>JAVA Web Application (J2EE)
+                    <input name="pl" type="checkbox" value="C Programming"/>C Programming
+                </div>
+            </div>
+            <div class="box"> 
+                <label>Manny Pacquiao or Floyd Mayweather:</label>
+                <div class="prog_lang_list">
+                    <input name="winner" type="radio" value="Manny Pacquiao"/>Manny Pacquiao
+                    <input name="winner" type="radio" value="Floyd Mayweather"/>Floyd Mayweather
+                </div>
+            </div>
+            <input type="Submit"/>
+        </form>
+    </body>
+</html>
